@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 8%;
+  background: rgb(255, 255, 255); 
+  z-index: 1000; 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav li {
+  margin: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333; 
+}
